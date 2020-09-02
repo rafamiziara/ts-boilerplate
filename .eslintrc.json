@@ -16,7 +16,15 @@
       "@typescript-eslint"
   ],
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never"
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
